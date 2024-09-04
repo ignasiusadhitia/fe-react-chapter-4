@@ -33,8 +33,24 @@ git config --global user.email "email@gmail.com"
 ```
 
 ## Perintah-perintah Dasar Git
+
 - `git init`: Membuat repository Git baru di direktori yang sedang aktif.
 - `git add`: Menambahkan file atau perubahan ke staging area sebelum di-commit.
 - `git commit`: Menyimpan perubahan yang ada di staging area ke repository lokal.
 - `git log`: Melihat riwayat commit yang ada di repository.
 - `git checkout`: Berpindah antar branch atau commit.
+
+## Membuat Repository di GitHub
+
+- Buat Akun GitHub: Kunjungi GitHub dan klik tombol "Sign Up" untuk membuat akun baru.
+- Buat Repository Baru:
+  - Setelah login, klik tombol "New Repository".
+  - Beri nama repository Anda dan pilih apakah repository akan bersifat publik atau privat.
+  - Klik "Create Repository".
+- Tautkan Repository Lokal ke GitHub:
+  - Setelah membuat repository baru di GitHub, Anda akan diberikan perintah untuk menautkan repository lokal Anda ke GitHub.
+```bash
+  git remote add origin https://github.com/username/repository-name.git
+  git branch -M main
+  git push -u origin main
+```
