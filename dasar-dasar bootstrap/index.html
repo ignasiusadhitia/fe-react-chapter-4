@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dasar-dasar Bootstrap</title>
+    <!-- Menambahkan Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Container Bootstrap -->
+    <div class="container my-5">
+      <header class="bg-primary text-white text-center py-4">
+        <h1>Selamat Datang di Bootstrap 5</h1>
+        <p class="lead">Dasar-dasar Bootstrap untuk Pengembangan Web Modern</p>
+      </header>
+
+      <!-- Grid System Bootstrap -->
+      <div class="row my-4">
+        <div class="col-md-4">
+          <div class="p-3 bg-light border">Kolom 1</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 bg-light border">Kolom 2</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 bg-light border">Kolom 3</div>
+        </div>
+      </div>
+
+      <!-- Form Input Bootstrap -->
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Alamat Email</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            Kami tidak akan membagikan email Anda kepada siapa pun.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Kata Sandi</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+      </form>
+
+      <!-- Button Bootstrap -->
+      <div class="text-center my-4">
+        <a href="#" class="btn btn-success btn-lg">Tombol Besar Bootstrap</a>
+      </div>
+
+      <!-- Navbar Bootstrap -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Fitur</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Harga</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Menambahkan JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
