@@ -31,3 +31,10 @@ Setelah instalasi, buka terminal atau command prompt dan lakukan konfigurasi das
 git config --global user.name "Nama Kamu"
 git config --global user.email "email@gmail.com"
 ```
+
+## Perintah-perintah Dasar Git
+- `git init`: Membuat repository Git baru di direktori yang sedang aktif.
+- `git add`: Menambahkan file atau perubahan ke staging area sebelum di-commit.
+- `git commit`: Menyimpan perubahan yang ada di staging area ke repository lokal.
+- `git log`: Melihat riwayat commit yang ada di repository.
+- `git checkout`: Berpindah antar branch atau commit.
